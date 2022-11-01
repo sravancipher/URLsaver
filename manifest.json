@@ -1,0 +1,22 @@
+{
+    "manifest_version":3,
+    "version":"1",
+    "name":"URL Tracker",
+    "action":
+    {
+        "default_popup":"index.html",
+        "default_icon":"icon.jpg"
+    },
+    "permissions":["tabs"],
+    "reminders":
+    {
+        "useDefault":false,
+        "overrides":
+        [
+            {
+                "method":"reminderMethod",
+                "minutes":"reminderMinutes"
+            }
+        ]
+    }
+}

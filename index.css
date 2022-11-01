@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    padding:20px;
+    max-width:400px;
+}
+#input-url
+{
+    border-radius:10px;
+    width:100%;
+    border: solid 2px red;
+    padding:10px;
+}
+#save-btn
+{
+    font-size:20px;
+    display:block;
+    padding:8px 20px;
+    width:380px;
+    margin:auto;
+    border-radius:10px;
+    font-weight: bold;
+    background-color: firebrick;
+    margin-top:5px;
+}
+#tab-btn
+{
+    font-size:20px;
+    display:block;
+    padding:8px 20px;
+    width:380px;
+    margin:auto;
+    border-radius:10px;
+    font-weight: bold; 
+    background-color: gray;
+    margin-top:5px;
+}
+#delete-btn
+{
+    font-size:20px;
+    display:block;
+    padding:8px 20px;
+    width:380px;
+    margin:auto;
+    border-radius:10px;
+    font-weight: bold; 
+    margin-top:5px;
+}
+#remainder
+{
+    text-align:center;
+    font-size:25px;
+    font-weight: bold;
+}
+#input-date
+{
+    border-radius:10px;
+    padding:10px;
+    margin:0px 35px;
+    float:left;
+    width:100px;
+    color:indigo;
+    font-weight: bold;
+}
+#input-time
+{
+    border-radius:10px;
+    padding:9px;
+    margin:0px 20px;
+    width:100px;
+}
+#urls-list
+{
+    font-size:20px;
+    min-height:0px;
+    overflow-wrap: break-word;
+    background-color:gray;
+    border-radius:10px;
+    margin:10px ;
+    list-style-type: none;
+}
+#urls-list a{
+    font-size:20px;
+    font-weight:bold;
+}
